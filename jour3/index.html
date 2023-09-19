@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Runtrack web | Jour 3</title>
+</head>
+<body>
+    <main>
+        <section class="job-section">
+            <li>
+                <label for="Job 1">Job 1 - Entrez deux nombres: </label>
+                <input type="text" placeholder="nombres 1" id="job1-num"><input type="text" placeholder="nombres 2" id="job1-num">
+                <input type="submit" value="Resultat" onclick="FirstJob();">
+            </li>
+        </section>
+        <hr>
+        <section class="job-section">
+            <li>
+                <label for="Job 2">Job 2 - Tableau: </label>
+                <input type="submit" value="Resultat" onclick="SecondJob();">
+            </li>
+        </section>
+        <hr>
+        <section class="job-section">
+            <li>
+                <label for="Job 3">Job 3 - Tableau & Boucle: </label>
+                <input type="submit" value="Resultat (For loop)" onclick="ThirdJob();">
+                <input type="submit" value="Resultat (ForEach)" onclick="ThirdJobAlt();">
+            </li>
+        </section>
+        <hr>
+        <section class="job-section">
+            <li>
+                <label for="Job 2">Job 4 - Fonction flechees: </label>
+                <input type="text" placeholder="Entrez une chaine de caractere" id="job4-entry">
+                <input type="submit" value="Resultat" onclick="FourthJob();">
+            </li>
+        </section>
+        <hr>
+        <section class="job-section">
+            <li>
+                <label for="Job 2">Job 5 - Tableau: </label>
+                <input type="submit" value="Resultat" onclick="SecondJob();">
+            </li>
+        </section>
+        <hr>
+        <section class="job-section">
+            <li>
+                <label for="Job 6">Job 6 - Interaction: </label>
+                <input type="submit" value="Changer la couleur du fond" onclick="SixthJob();">
+            </li>
+        </section>
+        <hr>
+        <section class="job-section">
+            <li><label for="job7" id="job7-result"></label></li>
+            <li>
+                <label for="Job 7">Job 7 - Form: </label>
+                <input type="text" placeholder="Texte a sauvegarder" id="job7-entry">
+                <input type="submit" value="sauvegarder" onclick="SeventhJob();">
+            </li>
+        </section>
+    </main>
+</body>
+</html>
